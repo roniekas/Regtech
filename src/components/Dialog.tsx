@@ -27,7 +27,7 @@ const Dialogs = (props: SimpleDialogProps) => {
             <Typography variant="h6" gutterBottom className={'ml-5'}>
                 Title
             </Typography>
-            <TextField id="outlined-basic" className={'w-96 mx-5'} variant="outlined" />
+            <TextField id="outlined-basic" className={'w-70 mx-5'} variant="outlined" />
             <Typography variant="h6" gutterBottom className={'ml-5 mt-2'}>
                 Answer
             </Typography>
@@ -35,7 +35,7 @@ const Dialogs = (props: SimpleDialogProps) => {
                 id="outlined-multiline-static"
                 multiline
                 rows={4}
-                className={'w-96 mx-5 mb-3'}
+                className={'w-70 mx-5 mb-3'}
             />
             <div className={'w-full flex justify-center'}>
                 <Buttons text={"Submit"} onClick={() => {}} clas={'w-80 mx-5 mb-3'}/>
