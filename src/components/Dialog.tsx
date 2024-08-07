@@ -37,7 +37,9 @@ const Dialogs = (props: SimpleDialogProps) => {
                 rows={4}
                 className={'w-96 mx-5 mb-3'}
             />
-            <Buttons text={"Submit"} onClick={() => {}} clas={'w-96 mx-5 mb-3'}/>
+            <div className={'w-full flex justify-center'}>
+                <Buttons text={"Submit"} onClick={() => {}} clas={'w-80 mx-5 mb-3'}/>
+            </div>
         </Dialog>
     )
 }
